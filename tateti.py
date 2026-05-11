@@ -65,4 +65,7 @@ while True:
         break
 
     # cambiar jugador
-    jugador_actual = "O" if jugador_actual == "X" else "X"
+    if jugador_actual == "X":
+        jugador_actual = "O"
+    else:   
+        jugador_actual = "X"
